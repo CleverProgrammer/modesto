@@ -26,7 +26,11 @@ Objects.equals(null, "test") // --> false
 ### How do you write a function/method in Java?
 ``` java
 /* public static <return data type> <name>(<data type> <variabe1Name>, <data type> <variable2Name> ...) {
-    1. Declare data types: Ex --> String hello; int num; etc
+    1. Declare data types: Ex --> 
+        String hello; 
+        int num; 
+        double number1;
+        ...
     2. Write the body of the function here...
     3. Make sure to add a return statement if the <return data type> is not void
     4. Close squigly to end the scope.
