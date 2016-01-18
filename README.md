@@ -1,7 +1,7 @@
 # Modesto
 Java exploration with my student Modesto.
 
-### [str1 == str2 vs Objects.equals(str1, str2)](http://stackoverflow.com/questions/513832/how-do-i-compare-strings-in-java)
+### [str1 == str2 vs. Objects.equals(str1, str2)](http://stackoverflow.com/questions/513832/how-do-i-compare-strings-in-java)
 ``` java
 // These two have the same value
 new String("test").equals("test") // --> true 
