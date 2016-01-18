@@ -1,4 +1,4 @@
-# modesto
+# Modesto
 Java exploration with my student Modesto.
 
 ### [== vs .equals](http://stackoverflow.com/questions/513832/how-do-i-compare-strings-in-java)
