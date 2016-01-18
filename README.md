@@ -21,6 +21,26 @@ Objects.equals(null, "test") // --> false
 // ... but these are because literals are interned by 
 // the compiler and thus refer to the same object
 "test" == "test" // --> true 
-
-
 ```
+
+### How do you write a function/method in Java?
+``` java
+/* public static <return data type> <name>(<data type> <variabe1Name>, <data type> <variable2Name> ...) {
+    1. Declare data types: Ex --> String hello; int num; etc
+    2. Write the body of the function here...
+    3. Make sure to add a return statement if the <return data type> is not void
+    4. Close squigly to end the scope.
+    return something;
+}
+*/
+
+public static double sum(double a, double b) {
+    return a + b;
+}
+```
+
+### How do you call a function/method in Java?
+``` java
+// <functionName>(param1, param2, ...)
+sum(1, 2)  // --> 3
+sum(5, 5)  // --> 10
