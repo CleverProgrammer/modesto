@@ -13,6 +13,7 @@ new String("test") == "test" // --> false
 new String("test") == new String("test") // --> false 
 
 // This is the best way to check for string equalities. It checks for nulls and calls .equals()
+import java.util.Objects
 Objects.equals("CA", "TX") // --> false
 Objects.equals("TX", "TX") // --> true
 Objects.equals("test", new String("test")) // --> true
