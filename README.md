@@ -1,7 +1,7 @@
 # Modesto
 Java explorations with my student Modesto.
 
-### [str1 == str2 vs. Objects.equals(str1, str2)](http://stackoverflow.com/questions/513832/how-do-i-compare-strings-in-java)
+[str1 == str2 vs. Objects.equals(str1, str2)](http://stackoverflow.com/questions/513832/how-do-i-compare-strings-in-java)
 ``` java
 // These two have the same value
 new String("test").equals("test") // --> true 
@@ -23,7 +23,7 @@ Objects.equals(null, "test") // --> false
 "test" == "test" // --> true 
 ```
 
-### How do you write a function/method in Java?
+How do you write a function/method in Java?
 ``` java
 /* public static <return data type> <name>(<data type> <variabe1Name>, <data type> <variable2Name> ...) {
     1. Declare data types: Ex --> 
@@ -44,7 +44,7 @@ public static double sum(double a, double b) {
 }
 ```
 
-### ... Okay so I have written a function/method in Java, now how do I call it?
+... Okay so I have written a function/method in Java, now how do I call it?
 ``` java
 // <functionName>(param1, param2, ...)
 sum(1, 2)  // --> 3
