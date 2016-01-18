@@ -34,7 +34,6 @@ Objects.equals(null, "test") // --> false
     2. Write the body of the function here...
     3. Make sure to add a return statement if the <return data type> is not void
     4. Close squigly to end the scope.
-    return something;
 }
 */
 
