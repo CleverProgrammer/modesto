@@ -1,5 +1,5 @@
 # Modesto
-Java exploration with my student Modesto.
+Java explorations with my student Modesto.
 
 ### [str1 == str2 vs. Objects.equals(str1, str2)](http://stackoverflow.com/questions/513832/how-do-i-compare-strings-in-java)
 ``` java
