@@ -12,7 +12,7 @@ new String("test") == "test" // --> false
 // ... neither are these
 new String("test") == new String("test") // --> false 
 
-// This is the best way to check for string equalities checks for nulls and calls .equals()
+// This is the best way to check for string equalities. It checks for nulls and calls .equals()
 Objects.equals("CA", "TX") // --> false
 Objects.equals("TX", "TX") // --> true
 Objects.equals("test", new String("test")) // --> true
