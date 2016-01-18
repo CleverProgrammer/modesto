@@ -49,3 +49,9 @@ public static double sum(double a, double b) {
 // <functionName>(param1, param2, ...)
 sum(1, 2)  // --> 3
 sum(5, 5)  // --> 10
+```
+
+### But it is not showing me anything!
+``` java
+System.out.println(sum(1, 2))
+```
