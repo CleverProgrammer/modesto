@@ -38,7 +38,9 @@ Objects.equals(null, "test") // --> false
 */
 
 public static double sum(double a, double b) {
-    return a + b;
+    double result;
+    result = a + b;
+    return result;
 }
 ```
 
