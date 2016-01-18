@@ -23,7 +23,7 @@ Objects.equals(null, "test") // --> false
 "test" == "test" // --> true 
 ```
 
-### How do you write a function/method in Java?
+### How do I write a function/method in Java?
 ``` java
 /* public static <return data type> <name>(<data type> <variabe1Name>, <data type> <variable2Name> ...) {
     1. Declare data types: Ex --> 
