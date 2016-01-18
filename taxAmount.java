@@ -25,6 +25,7 @@
 */
 
 import java.util.Scanner;
+import java.util.Objects;
 
 
 public class taxAmount {
@@ -44,7 +45,6 @@ public class taxAmount {
         // Taking in the user input for the State
         System.out.println("Enter state of residence: ");
         stateOfResidence = input.next();
-        System.out.println(stateOfResidence);
 
         // Closing the scanner. Just memorize this step for now!
         input.close();
@@ -55,15 +55,15 @@ public class taxAmount {
     
     public static double calcTaxRateForPurchase(double purchaseAmount, String state) {
         double rate;
-        if (state.equals("CA")) {
+        if (Objects.equals(state, "CA")) {
             rate = .075;
-        } else if (state.equals("NY")) {
+        } else if (Objects.equals(state, "NY")) {
             rate = .0825;
-        } else if (state.equals("NJ")) {
+        } else if (Objects.equals(state, "NJ")) {
             rate = .0425;
-        } else if (state.equals("IL")) {
+        } else if (Objects.equals(state, "IL")) {
             rate = .105;
-        } else if (state.equals("TX")) {
+        } else if (Objects.equals(state, "TX")) {
             rate = .55;
         } else {
             rate = .10;
